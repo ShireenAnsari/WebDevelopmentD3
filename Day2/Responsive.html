@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: 0;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+           
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 15%;
+            height: 75px;
+            line-height: 75px;
+            
+            background-color: brown;
+        }
+        nav .navbar-brand{
+            color:#ffff;
+            font-weight: bold;
+            font-size: 28px;
+            font-weight: 500;
+            letter-spacing: .5px;
+        }
+        nav .nav-list{
+            display: flex;
+        }
+        nav .nav-list .nav-items{
+            cursor: pointer;
+            height: 100%;
+            padding: 0 30px;
+
+        }
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <a  class="navbar-brand" href="#">Logo</a>
+       <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact-us</a></li>
+       </ul>
+    </nav>
+</body>
+</html>

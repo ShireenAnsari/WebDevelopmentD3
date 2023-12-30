@@ -1,0 +1,14 @@
+.mainhead{
+    background-color: blueviolet;
+    color: white;
+   }
+   #demodiv{
+    background-color: brown;
+    color: white;
+   }
+   body{
+    background-image: url('Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+   }
